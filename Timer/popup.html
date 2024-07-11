@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Timer</h1>
+        <div class="timer-box" id="timer-box">
+            <span id="timer-display" class="clock-font">00:00</span>
+        </div>
+        <div class="set-timer">
+            <input type="number" id="minutes" placeholder="Minutes" min="0">
+            <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+            <button id="start-button">Start</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
